@@ -1,1 +1,4 @@
 @import url(./component-lib/import.css);
+.card-sm{
+    margin: 1rem;
+}
