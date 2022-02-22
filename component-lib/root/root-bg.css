@@ -1,0 +1,28 @@
+@import url(../lib/main-root.css);
+/* css for background colour */
+
+
+.gray-bg{
+    background-color: var(--gray-bg);
+}
+.dark-bg{
+    background-color: var(--dark-bg);
+}
+.darkgray-bg{
+    background-color: var(--darkgray-bg);
+}
+.green-bg{
+    background-color: var(--green-clr);
+}
+.litegray-bg{
+    background-color: var(--litegray-bg);
+}
+.cta1-bg{
+    background-color: var(--cta1);
+}
+.cta2-bg{
+    background-color: var(--cta2);
+}
+.cta3-bg{
+    background-color: var(--cta3);
+}

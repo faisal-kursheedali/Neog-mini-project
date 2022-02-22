@@ -1,0 +1,26 @@
+/* this file import all the components and utility */
+
+/* this import all utility */
+@import url(../css/utility/txt.css);
+@import url(../css/utility/space.css);
+@import url(../css/utility/display.css);
+@import url(../css/utility/border.css);
+
+/* import components */
+@import url(../css/box.css);
+@import url(../css/code-box.css);
+@import url(../css/list.css);
+@import url(../css/nav.css);
+@import url(../css/img.css);
+@import url(../css/list.css);
+@import url(../css/box.css);
+@import url(../css/btn.css);
+@import url(../css/input.css);
+@import url(../css/badge.css);
+@import url(../css/avatar.css);
+@import url(../css/alert.css);
+@import url(../css/card.css);
+@import url(../css/modal.css);
+@import url(../css/rating.css);
+@import url(../css/toast.css);
+

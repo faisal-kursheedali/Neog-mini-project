@@ -1,0 +1,154 @@
+/* space.css file have all spacing properties */
+
+
+/* this has margin and padding */
+
+
+/* margin from .5rem(marg-0-5) to 2.5rem(marg-2-5) */
+.marg-0-5{
+    margin: .5rem;
+}
+.marg-1{
+    margin: 1rem;
+}
+.marg-1-5{
+    margin: 1.5rem;
+}
+.marg-2{
+    margin: 2rem;
+}
+.marg-2-5{
+    margin: 2.5rem;
+}
+
+/* for specified margin 
+marf-lft-1-->margin-left:1rem
+marf-rit-1-->margin-right:1rem
+marf-top-1-->margin-top:1rem
+marf-btm-1-->margin-bottom:1rem
+*/
+.marg-lft-1{
+    margin-left: 1rem;
+}
+.marg-lft-1-5{
+    margin-left: 1.5rem;
+}
+.marg-lft-2{
+    margin-left: 2rem;
+}
+.marg-lft-2-5{
+    margin-left: 2.5rem;
+}
+
+.marg-rit-1{
+    margin-right: 1rem;
+}
+.marg-rit-1-5{
+    margin-right: 1.5rem;
+}
+.marg-rit-2{
+    margin-right: 2rem;
+}
+.marg-rit-2-5{
+    margin-right: 2.5rem;
+}
+
+.marg-top-1{
+    margin-top: 1rem;
+}
+.marg-top-1-5{
+    margin-top: 1.5rem;
+}
+.marg-top-2{
+    margin-top: 2rem;
+}
+.marg-top-2-5{
+    margin-top: 2.5rem;
+}
+
+.marg-btm-1{
+    margin-bottom: 1rem;
+}
+.marg-btm-1-5{
+    margin-bottom: 1.5rem;
+}
+.marg-btm-2{
+    margin-bottom: 2rem;
+}
+.marg-btm-2-5{
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+/* padding on all side */
+.pad-0-5{
+    padding: .5rem;
+}
+.pad-1{
+   padding: 1rem;
+}
+.pad-1-5{
+   padding: 1.5rem;
+}
+.pad-2{
+   padding: 2rem;
+}
+.pad-2-5{
+   padding: 2.5rem;
+}
+
+
+/* padding on specifide side */
+.pad-lft-1{
+    padding-left: 1rem;
+}
+.pad-lft-1-5{
+    padding-left: 1.5rem;
+}
+.pad-lft-2{
+    padding-left: 2rem;
+}
+.pad-lft-2-5{
+    padding-left: 2.5rem;
+}
+
+.pad-rit-1{
+    padding-right: 1rem;
+}
+.pad-rit-1-5{
+    padding-right: 1.5rem;
+}
+.pad-rit-2{
+    padding-right: 2rem;
+}
+.pad-rit-2-5{
+    padding-right: 2.5rem;
+}
+
+.pad-top-1{
+    padding-top: 1rem;
+}
+.pad-top-1-5{
+    padding-top: 1.5rem;
+}
+.pad-top-2{
+    padding-top: 2rem;
+}
+.pad-top-2-5{
+    padding-top: 2.5rem;
+}
+
+.pad-btm-1{
+    padding-bottom: 1rem;
+}
+.pad-btm-1-5{
+    padding-bottom: 1.5rem;
+}
+.pad-btm-2{
+    padding-bottom: 2rem;
+}
+.pad-btm-2-5{
+    padding-bottom: 2.5rem;
+}

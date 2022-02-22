@@ -1,0 +1,18 @@
+/* display.css have all display properties */
+
+
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+}
+.inline{
+    display: inline;
+}
+.inline-flex{
+    display: inline-flex;
+}

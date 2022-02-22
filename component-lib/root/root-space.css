@@ -1,0 +1,18 @@
+/* root for spacing elements  */
+
+:root{
+    --marge-0:0rem;
+    --marg-0-5:.5rem;
+    --marg-1:1rem;
+    --marg-1-5:1.5rem;
+    --marg-2:2rem;
+    --marg-2-5:2.5rem;
+
+    --pad-0:0rem;
+    --pad-0-5:.5rem;
+    --pad-1:1rem;
+    --pad-1-5:1.5rem;
+    --pad-2:2rem;
+    --pad-2-5:2.5rem;
+
+}

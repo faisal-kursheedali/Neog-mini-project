@@ -1,0 +1,55 @@
+/* root that has all color */
+
+:root{
+    --cta1:#F0007C;
+    --cta2:#FC4100;
+    --cta3:#D9160B;
+   
+
+
+
+    --gray-bg: #7e7e7e;
+    --dark-bg:#333333;
+    --litegray-bg:#d3d3d3;
+    --darkgray-bg:#626262;
+
+    --white-txt:#fff;
+    --black-txt:#1b1b1b;
+    --gray-txt:#808080;
+    
+    
+    --yellow-clr: #9e7c0e;
+    --yellow-bg:#fff3cd;
+    --yellow-border:#ffd038;
+
+    --red-clr: #b41c29;
+    --red-bg:#f8d7da;
+    --red-border:#ff5362;
+    /* this clrs are mostely used in alert and input */
+    --green-clr: #0c5a37;
+    --green-bg:#d1e7dd;
+    --green-border:#00eb81;
+
+    --blue-clr:#0e2e5e;
+    --blue-bg:#cfe2ff;
+    --blue-border:#2a7fff;
+
+    --liteblack-clr: #3d3131; 
+    --liteblack-bg:#e2e3e5;
+    --liteblack-border:#919191;
+
+    --liteblue-clr:#0b7e97;
+    --liteblue-bg:#cff4fc;
+    --liteblue-border:#29d8ff;
+
+    --badge-green:#1b7052;
+    --badge-red:red;
+    --badge-yellow:#ff9204;
+    --badge-gray:#696b79;
+
+    --red-txt:red;
+    --yellow-txt:yellow;
+    --green-txt:green;
+
+    --link-default:#409eff;
+}

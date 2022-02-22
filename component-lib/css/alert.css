@@ -1,0 +1,68 @@
+@import url(../lib/main-root.css);
+/* alert.css is the alert style component of this component library */
+
+/* all alert fallo some same property  */
+.alert,.alert-red,.alert-green,.alert-blue,.alert-liteblack,.alert-liteblue,.alert-yellow{
+    font-size: var(--alert-fontsize);
+    max-width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border: var(--border-default);
+    border-radius: var(--border-curved);
+    padding: var(--pad-1);
+    margin: var(--marg-1);
+    background-color: white;
+    color: var(--black-txt);
+    border-color: var(--black-txt);
+    position: relative;
+}
+
+/* alert with icon */
+.alert-icon{
+    margin-right: var(--marg-0-5);
+   
+}
+
+/* alert with close icon */
+.alert-close{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.alert-close:hover{
+    opacity: 0.8;
+}
+
+/* alert coloring */
+.alert-red{
+    color: var(--red-clr);
+    background-color: var(--red-bg);
+    border-color: var(--red-border);
+}
+.alert-yellow{
+    color: var(--yellow-clr);
+    background-color: var(--yellow-bg);
+    border-color: var(--yellow-border);
+}
+.alert-green{
+    color: var(--green-clr);
+    background-color: var(--green-bg);
+    border-color: var(--green-border);
+}
+.alert-blue{
+    color: var(--blue-clr);
+    background-color: var(--blue-bg);
+    border-color: var(--blue-border);
+}
+.alert-liteblack{
+    color: var(--liteblack-clr);
+    background-color: var(--liteblack-bg);
+    border-color: var(--liteblack-border);
+}
+.alert-liteblue{
+    color: var(--liteblue-clr);
+    background-color: var(--liteblue-bg);
+    border-color: var(--liteblue-border);
+}

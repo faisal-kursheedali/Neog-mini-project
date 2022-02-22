@@ -1,0 +1,57 @@
+/* root for text styles */
+
+:root{
+    /* font sizes for heading text */
+    --head1-fontsize:6.25rem;
+    --head2-fontsize:5rem;
+    --head3-fontsize:3rem;
+    --head4-fontsize:2rem;
+
+    /* font sizes for normal and small text */
+    --p1-fontsize:1.75rem;
+    --p2-fontsize:1.5rem;
+    --p3-fontsize:1.25rem;
+    --small-fontsize:1rem;
+    
+
+    /* --cta1:var(--cta-clr1);
+    --cta2:var(--cta-clr2);
+    --cta3:var(--cta-clr3);
+    --cta4:var(--cta-clr4);
+    --cta5:var(--cta-clr5); */
+
+    /* this 
+    --text-on-cta1:var(--black-txt);
+    --text-on-cta2:var(--black-txt);
+    --text-on-cta3:var(--black-txt);
+    --text-on-cta4:var(--black-txt);
+    --text-on-cta5:var(--black-txt);
+    --text-on-heighlited:var(--black-txt); */
+
+    --heighlited-txt-bg:#FFFF00;
+    
+    
+    /* this has font sizes from .5rem to 2.5rem */
+    --font-sz-0-5:.5rem;
+    --font-sz-0-6:.6rem;
+    --font-sz-0-7:.7rem;
+    --font-sz-0-8:.8rem;
+    --font-sz-0-9:.9rem;
+    --font-sz-1:1rem;
+    --font-sz-1-1:1.1rem;
+    --font-sz-1-2:1.2rem;
+    --font-sz-1-3:1.3rem;
+    --font-sz-1-4:1.4rem;
+    --font-sz-1-5:1.5rem;
+    --font-sz-1-6:1.6rem;
+    --font-sz-1-7:1.7rem;
+    --font-sz-1-8:1.8rem;
+    --font-sz-1-9:1.9rem;
+    --font-sz-2:2rem;
+    --font-sz-2-1:2.1rem;
+    --font-sz-2-2:2.2rem;
+    --font-sz-2-3:2.3rem;
+    --font-sz-2-4:2.4rem;
+    --font-sz-2-5:2.5rem;
+
+}

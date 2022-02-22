@@ -1,0 +1,124 @@
+@import url(../lib/main-root.css);
+/* this file has all styling prop of input element */
+
+/* all input have some commen rules to fallo */
+.input,
+.input-rnd,
+.input-center,
+.input-inlineBlock,
+.input-sm,
+.input-md,
+.input-lrg,
+.input-yellow,
+.input-red,
+.input-blue,
+.input-gray,
+.input-green,.input-icn-container{
+    
+    font-weight: bold;
+    width: 90%;
+    border-radius: var(--border-curved-more);
+    font-size: var(--font-sz-1-5);
+    border: var(--border-default);
+    display: block;
+    outline: none;
+}
+
+/* round input */
+.input-rnd {
+    border-radius: var(--border-sm-circle);
+}
+
+/* centered input */
+.input-center{
+    margin: var(--marg-0-5) auto;
+
+}
+
+/* to make input inline block */
+.input-inlineBlock {
+    display: inline-block;
+}
+
+/* input-sizing */
+.input-sm {
+    font-size: var(--p3-fontsize);
+    padding: 0.25rem;
+}
+
+.input-md {
+    font-size:  var(--p2-fontsize);
+    padding: var(--pad-0-5);
+}
+
+.input-lrg {
+    font-size: var(--p1-fontsize);
+    padding: 0.6rem;
+}
+
+/* coloured inputs */
+.input-green {
+    color: var(--green-clr);
+    background-color: var(--green-bg);
+    border-color: var(--green-border);
+}
+
+.input-gray {
+    color: var(--gray-clr);
+    background-color: var(--gray-bg);
+    border-color: var(--gray-border);
+}
+
+.input-blue {
+    color: var(--blue-clr);
+    background-color: var(--blue-bg);
+    border-color: var(--blue-border);
+}
+
+.input-red {
+    color: var(--red-clr);
+    background-color: var(--red-bg);
+    border-color: var(--red-border);
+}
+
+.input-yellow {
+    color: var(--yellow-clr);
+    background-color: var(--yellow-bg);
+    border-color: var(--yellow-border);
+}
+
+/* input with icon */
+.input-icn-container{
+    display: flex;
+}
+.input-icn-container .input{
+    width: 100%;
+    height: auto;
+    margin: 4px;
+    padding: var(--pad-0);
+    border: 0px;
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+    border-color: transparent;
+}
+
+.input-icn{
+    align-self: center;
+    font-weight: bolder;
+    font-size: inherit;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-radius: var(--border-circle);
+    text-align: center;
+    margin: var(--marg-0);
+}
+.input-icn:hover{
+    background-color: var(--litegray-bg);
+    color: var(--cta1);
+}
+
+
+
+

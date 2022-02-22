@@ -1,0 +1,38 @@
+.toast{
+    display: none;
+}
+.toast-red,.toast-yellow,.toast-green{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.toast-txt,.toast-icn{
+    font-size: 1.5rem;
+    margin: auto .5rem;
+}
+.toast-close{
+    cursor: pointer;
+}
+.toast-close:hover{
+    color: black;
+    background-color: gray;
+    padding: 4px;
+    border-radius: 3rem;
+}
+.toast-red{
+    background-color: var(--red-bg);
+    color: var(--red-clr);
+}
+.toast-yellow{
+    background-color: var(--yellow-bg);
+    color: var(--yellow-clr);
+}
+.toast-green{
+    background-color: var(--green-bg);
+    color: var(--green-clr);
+}

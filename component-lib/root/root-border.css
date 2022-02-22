@@ -1,0 +1,10 @@
+/* root for border */
+
+:root{
+    --border-default: 2px solid;
+    --border-curved:.3rem;
+    --border-curved-more:.5rem;
+    --border-circle:50%;
+    --border-sm-circle:3rem;
+    --border-noradius:0px;
+}

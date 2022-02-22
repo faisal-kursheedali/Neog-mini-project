@@ -1,0 +1,13 @@
+/* root for code sample box */
+
+:root{
+    --code-fontsize:var(--p3-fontsize);
+    --code-tag:#0000cd;
+    --code-class:var(--cta1);
+    --code-tag-name:var(--code-tag);
+    --code-box-bg:var(--darkgray-bg);
+    --code-txt:#f8fcff;
+    --code-box-border:var(--cta1);
+    --code-attribute:#2ce6ec;
+    --xmp-fontsize:.86rem;
+}

@@ -1,0 +1,81 @@
+/*border.css file that has all border */
+
+/* all borders fallo some same properties */
+.border-litegray,
+.border-normalgray,
+.border-darkgray,
+.border-darkblack,
+.border-liteblack,
+.border-black,
+.border-yellow,
+.border-red,
+.border-blue.border-liteblue,.border-none,.border{
+    border: var(--border-default);
+    border-radius: var(--bordere-curved);
+}
+
+
+/* border with no border radius and default-color*/
+.border{
+    border-radius: var(--border-noradius);
+}
+
+/* border with border radius with no color */
+.border-none{
+    border-color: transparent;
+}
+
+/* border with lite gray */
+.border-litegray {
+    border-color: var(--litegray-bg);
+}
+
+/* border with dark gray */
+.border-normalgray {
+    border-color: var(--darkgray-bg);
+}
+
+/* border with gray */
+.border-darkgray {
+    border-color: var(--gray-txt);
+}
+
+/* border with dark black */
+.border-darkblack {
+    border-color: var(--dark-bg);
+}
+
+/* boeder with lite black */
+.border-liteblack {
+    border-color: var(--liteblack-border);
+}
+
+/* border with lite black */
+.border-black {
+    border-color: var(--black-txt);
+}
+
+/* border with yellow color */
+.border-yellow {
+    border-color: var(--yellow-border);
+}
+
+/* border with green color */
+.border-green {
+    border-color: var(--green-border);
+}
+
+/* border with red color */
+.border-red {
+    border-color: var(--red-border);
+}
+
+/* border with blue color */
+.border-blue {
+    border-color: var(--blue-border);
+}
+
+/* border with lite blue color */
+.border-liteblue {
+    border-color: var(--liteblue-border);
+}

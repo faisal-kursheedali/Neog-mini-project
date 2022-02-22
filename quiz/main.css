@@ -1,0 +1,81 @@
+@import url(../component-lib/import.css);
+
+.quiz-box{
+    
+    width: 50%;
+    margin: auto;
+    background-color: var(--litegray-bg);
+    /* padding: 2rem; */
+    border-radius: .5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    /* align-items: center; */
+}   
+.quiz-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.quiz-btn .btn,.quiz-btn .btn-sec{
+    padding: 0px 8px;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.quiz-question{
+    text-align: center;
+    padding: 1rem;
+}
+.input-box{
+    width: 100%;
+    
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.input-box div{
+    width: 100%;
+    align-self: flex-start;
+}
+.input-box label{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    align-self: flex-start;
+    padding: 8px;
+    border-bottom: 2px solid black;
+
+}
+.input-box label:hover{
+    font-size: 1.4rem;
+    border-color: var(--cta1);
+    border-left: 5px solid black;
+}
+.quiz-welcome button{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    margin:1rem auto;
+
+}
+.quiz-welcome button span{
+    font-size: inherit;
+}
+.quiz-score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.quiz-question-no,.user-score{
+    font-size: 1.2rem;
+    padding: 8px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.user-score{
+    margin-left: auto;
+}

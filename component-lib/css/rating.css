@@ -1,0 +1,31 @@
+.rating-input{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.rating-star-icn{
+    font-size: 1.2rem;
+}
+
+.rating-old,.rating-old-rnd{
+    margin: 1rem;
+    display: inline-flex;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 4px;
+}
+.rating-old-rnd{
+    border-radius: 3rem;
+}
+.rating-old-icn{
+    font-size: inherit;
+}
+
+/* .rating-input:enabled,.rating-star-icn{
+    cursor: pointer;
+}
+.rating-input:enabled,.rating-star-icn:hover{
+    color: gold;
+} */

@@ -1,0 +1,17 @@
+/* The link is imported for google icons */
+@import url(../component-lib/icon-google/icon.css);
+
+/* this import all the component  */
+@import url(./lib/main-css.css);
+body{
+    overflow-x: hidden;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* this file act as junction point to use all components */
+/* user have to import this one css file to use the component */

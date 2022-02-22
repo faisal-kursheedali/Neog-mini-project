@@ -1,0 +1,43 @@
+@import url(../lib/main-root.css);
+/* this file is the style to keep the elements inside the box  */
+
+/* all boxes fallow some same properties */
+.box-center,.box-center-flxcolumn,.box-center-flxrow{
+    border-radius: var(--border-curved-more);
+    margin:var(--marg-1) auto;
+    padding: var(--pad-1);
+}
+
+/* for centering the elements inside the container/box */
+.box-center{
+    width: 50%;
+    min-width: 600px;
+}
+
+/* centering the element based on flex */
+.compo-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:var(--pad-1);
+    margin: var(--marg-2) 0;
+    border: var(--border-default);
+    align-items: baseline;
+    border-radius: var(--border-curved);
+    width: 100%;
+}
+
+/* keeping element in row inside the container */
+.box-container-flex,.box-container-flex-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin: var(--marg-1);
+    
+}
+/* keeping element in column inside the container  */
+.box-container-flex-column{
+    flex-direction: column;
+    align-items: center;
+    
+}

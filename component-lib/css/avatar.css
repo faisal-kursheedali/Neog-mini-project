@@ -1,0 +1,58 @@
+@import url(../lib/main-root.css);
+/* avatar.css file has all style required for each types of avatar */
+
+/* all kind of avatar fallow some same properties */
+.avatar-sqr,.avatar-rnd,.avatar-txt{
+    aspect-ratio: var(--aspect-ratio-sqr);
+    position: relative;
+}
+
+/* for rounded avatar */
+.avatar-rnd{
+    border-radius: var(--border-circle);
+    width: 3.75rem;
+    object-fit: cover;
+}
+
+/* squared avatar */
+.avatar-sqr{
+    border-radius:var(--border-curved-more);
+    width: auto;
+    object-fit: cover;
+    
+}
+
+/* avatar text */
+.avatar-txt{
+    border-radius:var(--border-circle);
+    width: 10rem;
+    font-size:var(--font-sz-2);
+    text-align: center;
+    background-color: var(--cta1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* avatar sizing */
+.avatar-xsm{
+    width: 2.5rem;
+    font-size: var(--font-sz-0-8);
+}
+.avatar-sm{
+    width: 3.75rem;
+    font-size: var(--font-sz-1);
+}
+.avatar-md{
+    width: 6.25rem;
+    font-size: var(--font-sz-1-5);
+}
+.avatar-lrg{
+    width: 9.375rem;
+    font-size: 1.75rem;
+}
+.avatar-xl{
+    width:12.5rem;
+    font-size: var(--font-sz-2);
+}

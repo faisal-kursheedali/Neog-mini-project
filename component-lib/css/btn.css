@@ -1,0 +1,196 @@
+@import url(../lib/main-root.css);
+/* this file has all style required for the button  */
+
+/* all type of btn fallow some same ruls */
+.btn,
+.btn-outline,
+.btn-fancy,
+.btn-outline-fancy,.btn-rnd,.btn-icn,.btn-outline-icn,.btn-icn-sec,.btn-outline-icn-sec{
+    text-decoration: none;
+    display: block;
+    padding: var(--pad-0-5) var(--pad-1);
+    margin: var(--marg-1);
+    border-radius: var(--border-curved-more);
+    cursor: pointer;
+    font-size: var(--p2-fontsize);
+}
+
+/* round button */
+.btn-rnd{
+    border-radius: var(--border-sm-circle);
+}
+
+/* animation for normal button and outlined button */
+.btn,
+.btn-fancy {
+    background-color: var(--cta1);
+    color: var(--white-txt);
+}
+
+.btn-fancy,
+.btn-outline-fancy {
+    position: relative;
+    z-index: 1;
+    border: none;
+    border-radius: var(--border-noradius);
+}
+
+.btn-fancy::before,
+.btn-outline-fancy::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: var(--cta3);
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+.btn-outline-fancy:hover::before,
+.btn-fancy:hover::before {
+    transform: scale(1);
+    transform-origin: left;
+}
+
+.btn:hover,.btn-icn:hover {
+    filter: saturate(80%);
+
+
+}
+
+.btn-outline,
+.btn-outline-fancy {
+    color: var(--cta1);
+    border: 2.5px solid var(--cta1);
+}
+
+.btn-outline:hover,
+.btn-outline-fancy:hover {
+    background-color: var(--cta1);
+    color: var(--white-txt);
+}
+
+/* link and animated link */
+.link,
+.link-fancy,
+.link-underlined{
+    display: inline-block;
+    font-size: var(--p2-fontsize);
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--link-default);
+    
+}
+.link-nostyle{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+.link-underlined{
+    text-decoration: underline 4px;
+    text-decoration-color:var(--cta1) ;
+}
+
+.link-fancy{
+    position: relative;
+}
+
+.link-fancy::before {
+    content: "";
+    background-color: var(--cta1);
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+
+
+.link-fancy:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* button sizing */
+.btn-lrg{
+    font-size: var(--font-sz-1-1);
+    padding: 0.7rem 1.5rem;
+    min-width: 80px;
+}
+.btn-sm{
+    font-size: var(--font-sz-0-9);
+    padding: 0.3rem 0.7rem;
+}
+
+/* button floated */
+.btn-float{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10rem;
+    border-radius: 50%;
+    background-color: var(--cta1);
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    bottom: 2.5vh;
+    right: 2.5vw;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* icon button */
+.btn-icn{
+    color: var(--cta1);
+}
+
+/* secondary button for all type of button*/
+.btn-icn-sec{
+    color: inherit;
+}
+.btn-outline-icn,.btn-outline-icn-sec{
+    color: inherit;
+}
+.btn-outline-icn-sec:hover,.btn-icn-sec:hover{
+    opacity: 0.8;
+}
+.btn-outline-icn:hover{
+    color: var(--cta1);
+}
+.btn-sec{
+    background-color: var(--darkgray-bg);
+    color: inherit;
+    border-color: inherit;
+    
+}
+.btn-outline-sec{
+    color: inherit;
+    background-color: inherit;
+    border-color: inherit;
+}
+.btn-sec:hover,.btn-outline-sec:hover{
+    color: inherit;
+    background-color: var(--darkgray-bg);
+    opacity: 0.8;
+}
+
+/* link secondary */
+.link-sec{
+    color: inherit;
+    text-decoration-color:inherit;
+
+}
+
+.link-sec:hover{
+    opacity: 0.8;
+}

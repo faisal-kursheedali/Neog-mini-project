@@ -1,0 +1,71 @@
+@import url(../lib/main-root.css);
+
+/* this file has all the styles needed for list element */
+
+/* all types of list fallo some same rules */
+.list,
+.list-sqr,
+.list-rnd-lite,
+.list-rnd-dark,
+.list-abc,
+.list-cap,
+.list-num,
+.list-lrgroman,
+.list-smroman,.list-inline,.list-no-style{
+    
+    font-size: var(--font-sz-1-5);
+    list-style-type: none;
+}
+
+/* styles of list */
+.list-sqr {
+    list-style-type: square;
+}
+
+.list-rnd-lite {
+    list-style-type: circle;
+}
+
+.list-rnd-dark {
+    list-style-type: disc;
+}
+
+.list-abc {
+    list-style-type: lower-alpha;
+}
+
+.list-cap {
+    list-style-type: upper-alpha;
+}
+
+.list-num {
+    list-style-type: decimal;
+}
+
+.list-smroman {
+    list-style-type: lower-roman;
+}
+
+.list-lrgroman {
+    list-style-type: upper-roman;
+}
+
+.list-gap li:not(:last-of-type){
+    padding-bottom: 0.625rem;
+}
+
+/* inline list */
+.list-inline li{
+    display: inline;
+}
+.list-inline li:not(:last-of-type){
+    margin-right: 1.5rem;
+}
+
+/* list with no style */
+.list-no-style{
+    list-style: none;
+}
+.list-item-space li{
+    padding: var(--pad-1);
+}

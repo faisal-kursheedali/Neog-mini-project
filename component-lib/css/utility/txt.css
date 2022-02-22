@@ -1,0 +1,146 @@
+@import url(../../lib/main-root.css);
+/* txt.css file has all styles required for that type of text like hrading txt, normal txt, etc */
+
+/* heading texts */
+.head1,
+.head2,
+.head3,
+.head4 {
+    display: block;
+    margin: 1.25rem 0.625rem auto auto;
+}
+
+.head1 {
+    font-size: var(--head1-fontsize);
+    letter-spacing: .5rem;
+    word-spacing: .5rem;
+}
+
+.head2 {
+    font-size: var(--head2-fontsize);
+    letter-spacing: .25rem;
+    word-spacing: .25rem;
+}
+
+.head3 {
+    font-size: var(--head3-fontsize);
+}
+
+.head4 {
+    font-size: var(--head4-fontsize);
+}
+
+/* normal texts */
+.p1 {
+    font-size: var(--p1-fontsize);
+}
+
+.p2 {
+    font-size: var(--p2-fontsize);
+}
+
+.p3 {
+    font-size: var(--p3-fontsize);
+}
+
+.small {
+    font-size: var(--small-fontsize);
+}
+
+/* underlined */
+.txt-underline {
+    text-decoration: underline;
+}
+
+/*highlighted*/
+.highlighted,.highlighted-cta1,.highlighted-cta2,.highlighted-cta3{
+    color: var(--black-txt);
+    display: inline;
+}
+
+.highlighted {
+    background-color: var(--heighlited-txt-bg);
+
+}
+
+/*highlighted based on cta colors*/
+.highlighted-cta1 {
+    background-color: var(--cta1);
+}
+
+.highlighted-cta2 {
+    background-color: var(--cta2);
+}
+
+.highlighted-cta3 {
+    background-color: var(--cta3);
+}
+
+
+/* deleted text */
+.txt-del {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+/* bold text */
+.txt-bold {
+    font-weight: 700;
+}
+
+/* coloring text based on cta colors */
+.cta1 {
+    color: var(--cta1);
+}
+
+.cta2 {
+    color: var(--cta2);
+}
+
+
+.cta3 {
+    color: var(--cta3);
+}
+
+.txt-green{
+    color: var(--green-txt);
+}
+.txt-red{
+    color: var(--red-txt);
+}
+.txt-yellow{
+    color: var(--yellow-txt);
+}
+
+
+/* coloring text */
+.txt-white {
+    color: var(--white-txt);
+}
+
+.txt-black {
+    color: var(--black-txt);
+}
+
+.txt-gray {
+    color: var(--gray-txt);
+}
+
+/* Text alignment */
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+.txt-left{
+    text-align: left;
+}
+
+/* highlighted text for code */
+.txt-code{
+    font-family: monospace;
+    color: var(--cta1);
+    background-color: var(--litegray-bg);
+    border-radius: .5rem;
+}

@@ -1,0 +1,257 @@
+@import url(../lib/main-root.css);
+/*  this file has all style needed for card components. */
+
+/* There ate 3 type of cards in this component lib */
+/* they all fallow some same styles */
+.card-normal,.card-offer,.card-sm{
+    cursor: pointer;
+    position: relative;
+}
+/* disabled card */
+.card-disable{
+   
+    pointer-events: none;
+}
+.card-disable-txt{
+    position:absolute;
+    text-decoration: underline 3px red;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 1.3rem;
+    color:white;
+    z-index: 1;
+    pointer-events: none;
+    padding: 4px;
+    border-radius: .3rem;
+    border: 5px solid red;
+    border-radius: inherit;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0,0, 0, .8);
+
+}
+/* badge on card */
+.card-badge{
+    position: absolute;
+    top: 5%;
+    padding: 4px 6px;
+    font-weight: bold;
+    border-radius: .3rem;
+    left: 2px;
+    letter-spacing: 2px;
+}
+
+/* card container */
+.card-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 1;   
+}
+
+/* card type: offer card */
+.card-offer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: auto;
+}
+.card-offer-container::-webkit-scrollbar{
+    height: 0px;
+}
+
+.card-offer{
+    
+    width: 20%;
+    min-width: 100px;
+    max-width: 300px;
+    border-radius: .5rem;
+    aspect-ratio: 1/1;
+    margin: 4px;
+    padding: 4px;
+    background-color: white;
+}
+.card-offer-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    background-color: beige;
+    border-radius: .5rem;  
+}
+.card-offer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.card-txt,.card-head,.card-sub,.card-txtsm,.card-offer-txt,.card-offer-head{
+    width: 100%;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: var(--black-txt);
+    padding: 4px; 
+}
+.card-offer-head{
+    text-align: center;
+    margin: 0px;
+}
+
+.card-offer-txt,.card-sub{
+    font-size: 1rem;
+    margin: 4px 0px;
+    color: gray;
+}
+.card-offer-txt{
+    margin: 0px;
+}
+.card-offer-link{
+    width: 100%;
+    color: var(--green-clr);
+    display: block;
+    border-top: 2px solid gray;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* card type: normal card */
+.card-normal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    aspect-ratio: 1/1;
+    margin: 1rem;
+    padding: 8px;
+    background-color:white;
+}
+.card-normal-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.card-normal-badge{
+    display: inline-block;
+}
+.card-normal-rating{
+    background-color: var(--green-clr);
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    margin: 4px auto;
+    padding: 4px;
+    border-radius: 3rem;
+}
+.card-normal-rating-icon{
+    font-size: inherit;
+}
+.card-normal-price{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: var(--p2-fontsize);
+}
+.card-normal-oldprice{
+    font-size: .8rem;
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.card-normal-btn{
+    width: 100%;
+    padding: 0px;
+    margin-top: 8px;
+    margin: 0px; 
+    padding: 4px;
+    z-index: 0;
+}
+.card-normal-discount{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--green-clr);
+    margin: 4px;
+}
+
+/* card type: small card  */
+.card-sm-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-sm{
+    width: 30%;
+    padding: 8px;
+    border: 2px solid gray;
+    background-color: white;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+}
+.card-sm-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+.card-sm-head,.card-sm-sub,.card-sm-txt,.card-sm-discount{
+    text-align: center;
+    color: black;
+    margin: 4px auto;
+}
+.card-sm-head{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.card-sm-txt,.card-sm-discount{
+    font-size: 1em;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+.card-sm-sub{
+    color:gray;
+    font-size: .8rem;
+}
+
+.card-sm-btn{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.card-sm-discount{
+    color: var(--green-clr);
+}
+
+@media (max-width:426px) {
+    .card-main-container{
+        /* justify-content: flex-start; */
+        margin: 8px auto;
+    }
+    .card-normal{
+        max-width: 130px;
+        margin: .170rem;
+    }
+    .card-normal-img{
+        aspect-ratio: 1/1;
+    }
+    .card-offer-container{
+        justify-content: center;
+    }  
+}

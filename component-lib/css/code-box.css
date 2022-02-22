@@ -1,0 +1,85 @@
+@import url(../lib/main-root.css);
+
+/* this file have all css needed to show the demo code */
+
+/* styling for making demo-code  seperately */
+.tag-open,.tag-class,.tag-close,.tag-txt,.tag-attribute{
+    display: inline;
+}
+
+.tag-close::before{
+    content: '</';
+    color: var(--code-tag);
+}
+.tag-close::after{
+    content: '>';
+    color: var(--code-tag);
+}
+.tag-open::before{
+    content: '<';
+    color: var(--code-tag);
+}
+.tag-class::before{
+    content: ' class="';
+    color: var(--code-class);
+}
+.tag-class::after{
+    content: '"';
+    color: var(--code-class);
+}
+.tag-txt::before{
+    content: ">";
+    color:var(--code-tag) ;
+}
+.tag-class{
+    color: var(--cta2);
+}
+.tag-attribute{
+    color: var(--code-attribute);
+}
+.tag-attribute::before{
+    content: " ";
+}
+.tag-attribute::after{
+    content: '=""';
+    color: var(--code-class);
+}
+.tag-txt{
+    color: var(--code-txt);
+}
+.tag-close,.tag-open{
+    color: var(--code-tag-name);
+}
+.code-box{
+
+    display: block;
+    font-family: monospace;
+    font-size: var(--code-fontsize);
+    background-color: var(--code-box-bg);
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-left: 5px solid var(--code-box-border);
+    width: 50%;
+    max-width: 600px;
+    margin:1rem auto;
+    
+}
+
+/* style for making demo-code using xmp tag */
+.xmp-box{
+    display: flex;
+    background: #000;
+    justify-content: flex-start;
+    align-items: center;
+   flex-wrap: wrap;
+   overflow: auto;
+   border-radius: .3rem;
+   color: var(--white-txt);
+    border-left: 10px solid var(--code-box-border);
+    font-size: var(--xmp-fontsize);
+    text-align: left;
+    margin: 2rem auto;
+    max-height: 250px;
+}
