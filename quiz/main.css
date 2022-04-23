@@ -35,7 +35,10 @@
     font-size: 1.3rem;
     padding: 1rem;
 }
-.input-box div{
+.input-box label{
+    display: block
+}
+/* .input-box div{
     width: 100%;
     align-self: flex-start;
 }
@@ -53,14 +56,14 @@
     font-size: 1.4rem;
     border-color: var(--cta1);
     border-left: 5px solid black;
-}
+}*/
 .quiz-welcome button{
     font-size: 3rem;
     display: flex;
     align-items: center;
     margin:1rem auto;
 
-}
+} 
 .quiz-welcome button span{
     font-size: inherit;
 }
