@@ -35,13 +35,16 @@ const quizBox = document.querySelector(".quiz-box");
 const currentQ = document.querySelector(".current-ques");
 const totalQ = document.querySelector(".total-ques");
 const currentScore = document.querySelector(".current-score");
+const resultBox = document.querySelector(".result-box");
+const resultScore = document.querySelector("#result-score");
+const resultCrtAns = document.querySelector(".result-crt-ans");
 let score = 0;
 let count = 0;
 let check = false;
 let userAns = [],
     crtItm;
 let questionNO;
-
+resultBox.style.display="none";
 // this run when user click stat
 quizStart.addEventListener("click", () => {
     quizWelcome.style.display = "none";
@@ -91,6 +94,14 @@ quizNext.addEventListener("click", () => {
         countDisplay();
         display();
         answerChecker();
+    }else{
+        quizBox.style.display="none";
+        resultBox.style.display="block";
+        resultScore.innerText=score+`/${data.length}`;
+        for (let i = 0; i < data.length; i++) {
+            resultCrtAns.innerHTML=resultCrtAns.innerHTML+`<div >${i+1}, <span class="result-question">${data[i].question}<span/><div/>
+            <div class="result-ans">Ans : ${data[i].ans}<div/>`   
+        }
     }
 })
 quizBack.addEventListener("click", () => {

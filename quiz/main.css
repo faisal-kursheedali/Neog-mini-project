@@ -82,3 +82,15 @@
 .user-score{
     margin-left: auto;
 }
+.result-crt-ans{
+    width: 50%;
+    margin: auto;
+    font-size: 1.2rem;
+   
+}
+.result-question{
+    color: red;
+}
+.result-ans{
+    color: green;
+}
